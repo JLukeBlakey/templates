@@ -16,4 +16,5 @@ while getopts ':f:o' opt; do
     esac
 done
 
+# ensure $FLAG is defined
 [ "$FLAG" ] || usage
